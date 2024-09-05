@@ -1,9 +1,15 @@
 public class Main {
     
     public static void main(String[] args) {
-        int a = 20000;
+        String nama = "Aco iqbal";
+        String nim = "D0223041";
+        int umur = 20;
+        char kelas = 'E';
         
-        System.out.printf("%, d%n",a);
+        System.out.print("ini biodata saya : ");
+        System.out.printf("nama: %s, Nim: %s, umur: %d,kelas %C ", nama, nim, umur, kelas);
+        
+        
      }
 
 }
