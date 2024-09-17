@@ -5,12 +5,7 @@ public class Day16 {
     public static void main(String[] args) {
         float A1, A2, A3, A4;
         float B1, B2, B3, B4;
-        
-        A1 = 1.3f;
-        A2 = 5.4f;
-        A3 = 3.4f;
-        A4 = 8.2f;
-        System.out.printf("Float A : A1 = %.1f, A2 = %.1f, A3 = %.1f, A4 = %.1f",A1, A2, A3, A4);
+       
         System.out.println();
         
         B1 = 7.7f;
