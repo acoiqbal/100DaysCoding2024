@@ -36,5 +36,13 @@ public class Day18 {
         System.out.printf("I = %b", i);
         System.out.println();
 
+        System.out.println("-------------");
+
+        boolean j = true;
+        boolean k = false;
+
+        System.out.println("J = " + j);
+        System.out.println("K = " + k);
+
     }
 }
