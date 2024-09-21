@@ -38,18 +38,12 @@ public class Day20 {
         System.out.println("evi  memiliki " + e + " kelereng");
         System.out.println();
         
-        // melakukan penambahan kelereng
-        a += 5;
-        b += 3;
-        c += 2;
-        d += 4;
-        
-        // menampilkan jumlah kelereng setelah di tambah
+         // melakukan penambahan dan menampilkan jumlah kelereng setelah penambahan
         System.out.println("Setelah penambahan kelereng");
-        System.out.println("Ali  memiliki " + a + " kelereng");
-        System.out.println("Budi memiliki " + b + " kelereng");
-        System.out.println("Cici memiliki " + c + " kelereng");
-        System.out.println("Dedi memiliki " + d + " kelereng");
+        System.out.println("Ali  memiliki " + (a + 5) + " kelereng");
+        System.out.println("Budi memiliki " + (b + 3) + " kelereng");
+        System.out.println("Cici memiliki " + (c + 2) + " kelereng");
+        System.out.println("Dedi memiliki " + (d + 4) + " kelereng");
         System.out.println("evi  memiliki " + e + " kelereng");
     }
 
