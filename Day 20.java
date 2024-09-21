@@ -3,6 +3,7 @@ package day.pkg4;
 public class Day20 {
 
     public static void main(String[] args) {
+        // inisialisasi tipe data reference
         byte a = 20;
         byte b = 15;
         byte c = 18;
