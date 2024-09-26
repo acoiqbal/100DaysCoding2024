@@ -2,10 +2,10 @@ public class Main {
     
     public static void main(String[] args) {
         Double a, b, c, d, e;
-        a = 15.55657885;
+        a = 7.55657885;
         b = 5.686579795;
-        c = 20.86857788;
-        d = 10.97645899;
+        c = 2.86857788;
+        d = 9.97645899;
         e = 6.868321267;
         
         System.out.printf("A = %.1f\n", a);
