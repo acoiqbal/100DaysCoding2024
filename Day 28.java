@@ -1,7 +1,7 @@
 public class Main {
     
     public static void main(String[] args) {
-        boolean a, b, c;
+        Boolean a, b, c;
         a = 4 > 3;
         b = 5 < 8;
         c = 7 < 3;
@@ -12,9 +12,9 @@ public class Main {
 
         System.out.println("-------------");
 
-        boolean d = 'A' == 'C';
-        boolean e = 'B' == 'b';
-        boolean f = 'C' != 'S';
+        Boolean d = 'A' == 'C';
+        Boolean e = 'B' == 'b';
+        Boolean f = 'C' != 'S';
 
         System.out.println("D = " + d);
         System.out.println("E = " + e);
@@ -22,8 +22,8 @@ public class Main {
 
         System.out.println("-------------");
 
-        boolean j = true;
-        boolean k = false;
+        Boolean j = true;
+        Boolean k = false;
 
         System.out.println("3 > 4 = " + k);
         System.out.println("2 < 5 = " + j);
