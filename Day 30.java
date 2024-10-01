@@ -14,7 +14,7 @@ public class Main {
         System.out.printf("D = %.2f\n", d);
         System.out.println("E = " + e);
         
-        System.out.println("-----------------");
+        System.out.println("----------------");
         
         BigDecimal f;
         f = a;
