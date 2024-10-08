@@ -9,8 +9,8 @@ public class Main {
         a += 2;
         b -= 3;
 
-        System.out.println("hasil penjumlahan A dan B = " + a);
-        System.out.println("Hasil pengurangan C dan D = " + b);
+        System.out.println("hasil penjumlahan A = " + a);
+        System.out.println("Hasil pengurangan B = " + b);
       
         System.out.println("----------------------");
         Scanner sc = new Scanner(System.in);
@@ -21,7 +21,7 @@ public class Main {
         int d = sc.nextInt();
         c += d;
        
-        System.out.println("Hasil penjumlah A dan B = " + c);
+        System.out.println("Hasil penjumlah C dan D = " + c);
         
         System.out.println("----------------------");
         System.out.print("Masukkan angka = ");
@@ -32,7 +32,7 @@ public class Main {
         
         e -= f;
        
-        System.out.println("Hasil penjumlah A dan B = " + e);
+        System.out.println("Hasil pengurangan E dan F = " + e);
         
         sc.close();
     }
