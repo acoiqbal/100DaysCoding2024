@@ -5,7 +5,6 @@ public class Main {
        int a, b;
         a = 12;
         b = 10;
-        int hasil1 = a + b;
 
         a += 2;
         b -= 3;
