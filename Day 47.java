@@ -3,14 +3,14 @@ public class Main {
     
     public static void main(String[] args) {
         int a, b;
-        a = 70;
+        a = 80;
         b = 60;
         
         if (a >= 70) {
             System.out.println("nilai anda memenuhi");
         }
         
-        if (b <= 60) {
+        if (b <= 70) {
             System.out.println("nilai anda tidak memenuhi");
         }
         
