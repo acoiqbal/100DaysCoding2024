@@ -11,7 +11,7 @@ public class Main {
         }else if (a == 65){
             System.out.println("nilai anda error");
         }else{
-            System.out.println("error");
+            System.out.println("inputan error");
         }
         
         if (b <= 70) {
@@ -19,7 +19,7 @@ public class Main {
         }else if (b == 75){
             System.out.println("nilai anda memenuhi");
         }else{
-            System.out.println("error");
+            System.out.println("inputan error");
         }
         
         System.out.println("----------------------");
