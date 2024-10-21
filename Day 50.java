@@ -2,36 +2,40 @@ import java.util.Scanner;
 public class Main {
     
     public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+        int a, b;
+        a = 65;
+        b = 75;
         
-        String a;
-        System.out.println("inputan nilai :");
-        
-        System.out.println("nama siswa : andi, budi, evi, rara, rudi, rizki");
-        System.out.print("masukkan nama siswa : ");
-        a = sc.nextLine();
-        
-        switch (a){
-            case "andi":
-            System.out.println("nilai = 100");
-            break;
-            case "budi":
-            System.out.println("nilai = 90");
-            break;
-            case "evi":
-            System.out.println("nilai = 80");
-            break;
-            case "rara":
-            System.out.println("nilai = 70");
-            break;
-            case "rudi":
-            System.out.println("nilai = 60");
-            break;
-            case "rizki":
-            System.out.println("nilai = 50");
-            break;
+        if (a >= 70 ) {
+            System.out.println("nilai anda memenuhi");
+        }else if (a == 65){
+            System.out.println("nilai anda error");
+        }else{
+            System.out.println("error");
         }
-       
+        
+        if (b <= 70) {
+            System.out.println("nilai anda tidak memenuhi");
+        }else if (b == 75){
+            System.out.println("nilai anda memenuhi");
+        }else{
+            System.out.println("error");
+        }
+        
+        System.out.println("----------------------");
+        Scanner sc = new Scanner(System.in);
+
+        System.out.print("Masukkan nilai : ");
+        int c = sc.nextInt();
+        
+        if (c >= 70 && c <= 100){
+            System.out.println("anda lulus");
+        }else if (c <= 70 && c >= 30){
+            System.out.println("anda tidak lulus");
+        }else{
+            System.out.println("error");
+        }
+        
         sc.close();
     }
 }
